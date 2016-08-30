@@ -4,9 +4,56 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6538fc45ddb345defc70af14dae67d9a",
-    "content-hash": "ef5bd9432f8c419cf72b7eaabf23bc4b",
-    "packages": [],
+    "hash": "26c5639d8c3d4571fe90d860cc6b52c9",
+    "content-hash": "4bf4acd51b74f6733eedde1673e755f0",
+    "packages": [
+        {
+            "name": "efrogg/database",
+            "version": "v0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/raphael-homann/DbManager.git",
+                "reference": "c030f2d1065810ef5be0bb614873e5e7af9c0aa7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/raphael-homann/DbManager/zipball/c030f2d1065810ef5be0bb614873e5e7af9c0aa7",
+                "reference": "c030f2d1065810ef5be0bb614873e5e7af9c0aa7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "efrogg\\Db\\": "src/Db/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Raph raph",
+                    "email": "raph@e-frogg.com"
+                }
+            ],
+            "description": "Database tools",
+            "keywords": [
+                "database",
+                "mysql",
+                "pdo"
+            ],
+            "time": "2016-08-30 07:23:46"
+        }
+    ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
