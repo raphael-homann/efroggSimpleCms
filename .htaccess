@@ -1,0 +1,2 @@
+RewriteBase /
+RewriteRule ^api/(.*)$ webservice.php [QSA,L]
